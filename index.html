@@ -399,7 +399,7 @@
     <!-- 回函表單主體 -->
     <div class="glow-card rounded-3xl p-6 md:p-10 border border-wedding-sandstone/40 shadow-soft relative">
       <form id="weddingForm" 
-            action="https://script.google.com/macros/s/AKfycbxEUmWSjEZHudphtfUKjLnnTVt4mnHrNIcFxrDc3nZ5OgbVyT2rBqEf_9gQ40udFwQH/exec" 
+            action="https://script.google.com/macros/s/AKfycbz6CLKHrh-9iqDA34ficfwFTFvqJAqBZ_zH0y-fxjaBeFVwcYKXQCMUPCNZ4ldRoSdQ/exec" 
             method="POST" 
             target="hidden_iframe" 
             onsubmit="return handleSubmitForm(event);" 
@@ -728,7 +728,7 @@
 
 
     // --- 3. 經 Apps Script 寫入及確認，避免誤報成功 ---
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxEUmWSjEZHudphtfUKjLnnTVt4mnHrNIcFxrDc3nZ5OgbVyT2rBqEf_9gQ40udFwQH/exec';
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz6CLKHrh-9iqDA34ficfwFTFvqJAqBZ_zH0y-fxjaBeFVwcYKXQCMUPCNZ4ldRoSdQ/exec';
     let pendingSubmission = null;
     let completedSubmission = false;
     const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
